@@ -25,8 +25,8 @@ class QuestionController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param \Illuminate\Http\Request $request
-     * @return Response
+     * @param Request $request
+     * @return QuestionResource
      */
     public function store(Request $request)
     {
@@ -50,7 +50,7 @@ class QuestionController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param \Illuminate\Http\Request $request
+     * @param Request $request
      * @param Question $question
      * @return Response
      */
